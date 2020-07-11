@@ -1,0 +1,20 @@
+{
+  "name": "js1024-2020",
+  "version": "1.0.0",
+  "description": "Maybe an entry for js1024, 2020",
+  "repository": "git@github.com:kindness-is-the-dankest-meme/js1024-2020.git",
+  "contributors": [
+    "Matt Hayes <matt@mysterycommand.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "tsc -p tsconfig.json --noEmit false"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "1.12.4",
+    "prettier": "2.0.5",
+    "typescript": "3.9.6"
+  }
+}
