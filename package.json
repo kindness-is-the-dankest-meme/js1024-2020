@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "tsc -p tsconfig.json --noEmit false"
   },
   "dependencies": {},
   "devDependencies": {
